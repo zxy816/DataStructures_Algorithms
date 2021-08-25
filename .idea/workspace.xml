@@ -20,33 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da1a474a-8b43-409a-a01e-3d7fb6cfd565" name="Default" comment="Revert &quot;.&quot;&#10;&#10;This reverts commit 35125aa762318feae049f82795364084d6b92a54.">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures_Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/algorithms/Day20_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/algorithms/Day20_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/algorithms/Day20_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/algorithms/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/ListNodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/TreeNodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/ArrayApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/两数之和等于目标数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/合并2个排序好的数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/数组中最小的和第二小的数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/盛最多水的容器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/datastruct/array/第一个没有重复的数组元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/effic/Section1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxy/effic/Section2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/poi.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zxy/algorithms/Day20_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxy/algorithms/Day20_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zxy/effic/Section2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxy/effic/Section2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,33 +88,7 @@
       <recent name="F:\WebDemo\Java\src\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day20_2">
-    <configuration name="两数之和等于目标数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxy.datastruct.array.两数之和等于目标数" />
-      <module name="DataStructures_Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zxy.datastruct.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="合并2个排序好的数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxy.datastruct.array.合并2个排序好的数组" />
-      <module name="DataStructures_Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zxy.datastruct.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Section2">
     <configuration name="Day20_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zxy.algorithms.Day20_1" />
       <module name="DataStructures_Algorithms" />
@@ -165,8 +115,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day20_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxy.algorithms.Day20_3" />
+      <module name="DataStructures_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxy.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Section1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zxy.effic.Section1" />
+      <module name="DataStructures_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxy.effic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Section2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxy.effic.Section2" />
       <module name="DataStructures_Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -317,19 +293,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.两数之和等于目标数" />
-      <item itemvalue="Application.合并2个排序好的数组" />
       <item itemvalue="Application.Section1" />
       <item itemvalue="Application.Day20_1" />
       <item itemvalue="Application.Day20_2" />
+      <item itemvalue="Application.Day20_3" />
+      <item itemvalue="Application.Section2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Section2" />
+        <item itemvalue="Application.Day20_3" />
         <item itemvalue="Application.Day20_2" />
         <item itemvalue="Application.Day20_1" />
         <item itemvalue="Application.Section1" />
-        <item itemvalue="Application.合并2个排序好的数组" />
-        <item itemvalue="Application.两数之和等于目标数" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +348,7 @@
       <workItem from="1629702476937" duration="7225000" />
       <workItem from="1629786815205" duration="7180000" />
       <workItem from="1629796965139" duration="335000" />
-      <workItem from="1629859414633" duration="1389000" />
+      <workItem from="1629859414633" duration="11831000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;.&quot;&#10;&#10;This reverts commit 35125aa762318feae049f82795364084d6b92a54.">
       <created>1629784814074</created>
@@ -381,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629784814074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revert &quot;.&quot;&#10;&#10;This reverts commit 35125aa762318feae049f82795364084d6b92a54.">
+      <created>1629860901750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629860901751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -414,9 +397,9 @@
       <path value="$PROJECT_DIR$/data-structure" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Revert &quot;.&quot;&#10;&#10;This reverts commit 35125aa762318feae049f82795364084d6b92a54." />
     <MESSAGE value="Revert &quot;.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;.&quot;" />
+    <MESSAGE value="Revert &quot;.&quot;&#10;&#10;This reverts commit 35125aa762318feae049f82795364084d6b92a54." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;.&quot;&#10;&#10;This reverts commit 35125aa762318feae049f82795364084d6b92a54." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1629786591569">
@@ -427,22 +410,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629860136923" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1629796948942">
+    <state x="782" y="417" key="Github.ShareDialog" timestamp="1629860833493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629796948942" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1629796948942">
+    <state x="782" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629860833493" />
+    <state x="680" y="217" key="Github.UntrackedFilesDialog" timestamp="1629860861389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629796948942" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1629796948942">
+    <state x="680" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629860861389" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1629879824061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629796948942" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1629796948942">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629879824061" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1629879824061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629796948942" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629879824061" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1629879824061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629879824061" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1629879824061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629879824061" />
     <state x="676" y="221" key="RollbackChangesDialog" timestamp="1629451923806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -451,10 +442,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629860817583" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629785075280">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629860916655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1629785075280" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1629860916655" />
     <state x="690" y="279" key="extract.method.dialog" timestamp="1629704995964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
