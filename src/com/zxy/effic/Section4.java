@@ -10,6 +10,8 @@ public class Section4 {
         int[] partition = new int[]{1, 5, 11, 5};
         System.out.println(canPartition(partition));
         System.out.println("------------------------");
+        int[] coins = new int[]{1, 2, 5};
+        System.out.println(coinChange(coins, 11));
     }
 
     /**
@@ -72,7 +74,28 @@ public class Section4 {
      * 解释：11 = 5 + 5 + 1
      */
     public static int coinChange(int[] coins, int amount) {
+        int[] memo = new int[amount];
+        return findWay(coins, amount, memo);
+    }
 
-        return 0;
+    private static int findWay(int[] coins, int amount, int[] memo) {
+        if (amount == 0) {
+            return 0;
+        }
+        if (amount < 0) {
+            return -1;
+        }
+        if (memo[amount - 1] != 0) {
+            return memo[amount - 1];
+        }
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < coins.length; i++) {
+            int res = findWay(coins, amount - coins[i], memo);
+            if (res >= 0 && res < min) {
+                min = res + 1;
+            }
+        }
+        memo[amount - 1] = (min == Integer.MAX_VALUE ? -1 : min);
+        return memo[amount - 1];
     }
 }
