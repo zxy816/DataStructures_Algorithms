@@ -1,5 +1,8 @@
 package com.zxy.hot100;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Day4 {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
@@ -15,6 +18,16 @@ public class Day4 {
             System.out.print(cur.val + " ");
             cur = cur.next;
         }
+        System.out.println();
+        ListNode listNode = new ListNode(1);
+        ListNode listNode1 = new ListNode(2);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode3 = new ListNode(2);
+        listNode.next = listNode1;
+        listNode1.next = listNode2;
+        listNode2.next = listNode3;
+        listNode3.next = null;
+        System.out.println("回文链表：" + isPalindrome(listNode));
     }
 
     /**
@@ -25,8 +38,22 @@ public class Day4 {
      * 输出：false
      */
     public static boolean isPalindrome(ListNode head) {
-
-        return false;
+        List<Integer> list = new ArrayList<>();
+        ListNode cur = head;
+        while (cur != null) {
+            list.add(cur.val);
+            cur = cur.next;
+        }
+        int first = 0;
+        int last = list.size() - 1;
+        while (first < last) {
+            if (list.get(first) != list.get(last)) {
+                return false;
+            }
+            first++;
+            last--;
+        }
+        return true;
     }
 
 
