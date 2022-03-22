@@ -8,7 +8,63 @@ public class Offer5 {
 //        findCarPark();
 //        minTimes();
 //        maxDistance();
-        sortNumStr();
+//        sortNumStr();
+        compression();
+    }
+
+    /**
+     * 有一种简易压缩算法：针对全部为小写英文字母组成的字符串， 将其中连续超过两个相同字母的部分压缩为连续个数加该字母 其他部分保持原样不变.
+     * 例如字符串aaabbccccd 经过压缩变成字符串 3abb4cd
+     * 请您编写解压函数,根据输入的字符串,判断其是否为合法压缩过的字符串。
+     * 若输入合法则输出解压缩后的字符串，否则输出字符串"!error"来报告错误
+     */
+    private static void compression() {
+        Scanner scanner = new Scanner(System.in);
+        char ch;
+        String temp, res;
+        int count;
+        while (scanner.hasNext()) {
+            String str = scanner.next();
+            res = "";
+            if (str.matches(".*[^0-9a-z].*") || str.matches("^.*[0-9]+$")) {
+                System.out.println("!error");
+                continue;
+            }
+            for (int i = 0, k; i < str.length(); i++) {
+                ch = str.charAt(i);
+                temp = "";
+                if (ch >= 'a' || ch <= 'z') {
+                    k = i;
+                    for (k = i + 1; k < str.length(); ++k) {
+                        if (ch != str.charAt(k)) {
+                            break;
+                        }
+                    }
+                    if (k - i > 2) {
+                        res = "!error";
+                        break;
+                    }
+                }
+                while (ch >= '0' && ch <= '9') {
+                    temp += ch;
+                    ++i;
+                    ch = str.charAt(i);
+                }
+                if (!temp.isEmpty()) {
+                    count = Integer.parseInt(temp);
+                    if (count < 3) {
+                        res = "!error";
+                        break;
+                    }
+                    for (int j = 0; j < count; j++) {
+                        res += ch;
+                    }
+                } else {
+                    res += ch;
+                }
+            }
+            System.out.println(res);
+        }
     }
 
     /**
