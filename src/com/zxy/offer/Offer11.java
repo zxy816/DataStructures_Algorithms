@@ -1,11 +1,9 @@
 package com.zxy.offer;
 
 import java.util.HashMap;
-import java.util.List;
 
 public class Offer11 {
-    public static void main(String[] args) {
-
+    public static void main(String[] argoods) {
 
     }
 
@@ -18,6 +16,52 @@ public class Offer11 {
 //    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 //
 //    }
+
+    /**
+     * 和为s的两个数字
+     */
+    public int[] twoSum(int[] nums, int target) {
+
+        return nums;
+    }
+
+    /**
+     * 调整数组顺序使奇数位于偶数前面
+     */
+    public int[] exchange(int[] nums) {
+        int i = 0;
+        int j = nums.length - 1;
+        int temp = 0;
+        while (i != j) {
+            while (i < j && (nums[i] & 1) == 1) {
+                i++;
+            }
+            while (i < j && (nums[i] & 1) == 0) {
+                j--;
+            }
+            temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
+        return nums;
+    }
+
+    /**
+     * 两个链表的第一个公共节点
+     */
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        ListNode nodeA = headA;
+        ListNode nodeB = headB;
+        while (headA != headB) {
+            nodeA = nodeA == null ? headB : nodeA.next;
+            nodeB = nodeB == null ? headA : nodeB.next;
+        }
+        return nodeA;
+    }
+
 
     /**
      * 链表中倒数第k个节点
@@ -102,20 +146,21 @@ public class Offer11 {
     }
 
 
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        if (list1 == null) {
-            return list2;
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode preNode = new ListNode(-1);
+        ListNode listNode = preNode;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                listNode.next = l1;
+                l1 = l1.next;
+            } else {
+                listNode.next = l2;
+                l2 = l2.next;
+            }
+            listNode = listNode.next;
         }
-        if (list2 == null) {
-            return list1;
-        }
-        if (list1.val < list2.val) {
-            list1.next = mergeTwoLists(list1.next, list2);
-            return list1;
-        } else {
-            list2.next = mergeTwoLists(list1, list2.next);
-            return list2;
-        }
+        listNode.next = l1 == null ? l2 : l1;
+        return preNode.next;
     }
 
     public class ListNode {
