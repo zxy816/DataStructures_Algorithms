@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Hj7 {
     public static void main(String[] args) throws IOException {
-        hj103();
+//        hj103();
     }
 
     /**
